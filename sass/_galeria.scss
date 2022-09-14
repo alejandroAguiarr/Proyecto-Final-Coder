@@ -1,0 +1,76 @@
+.gridsgaleriamom{
+    display: grid;
+    grid-template-areas:
+    "menux"
+    "titulo"
+    "titulo2"
+    "textopaisajes"
+    "paisajes"
+    "textofiesta"
+    "fiesta"
+    "textolgbt"
+    "lgbt"
+    "footer";
+    height: auto;
+    width: 100%;
+    
+}
+
+.gridsgaleria{
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 45vh;
+    
+}
+.gridsgaleria2{
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 45vh 45vh;
+    
+}
+.gg12{
+    grid-area: titulo;
+      margin: 0.5em;
+}
+.gg13{
+    grid-area: titulo2;
+    margin: 0.5em;
+}
+.gg14{
+    grid-area: textopaisajes;
+    margin: 0.3em;
+}
+.gg15{
+    grid-area: textofiesta;
+    margin: 0.3em;
+}
+.gg16{
+    grid-area: textolgbt;
+    margin: 0.3em;
+}
+.gg2{
+    grid-area: paisajes;  
+}
+.gg3{
+    grid-area: fiesta; 
+}
+.gg4{
+    grid-area: lgbt;
+}
+.ggfooter{
+    grid-area: footer;
+
+}
+ggmenux{
+    grid-area: menux;
+}
+.galefotos{
+    margin: 0,2em;
+    width: 97%;
+    height: 97%;
+    border: inset;
+}
+.galetxt{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}

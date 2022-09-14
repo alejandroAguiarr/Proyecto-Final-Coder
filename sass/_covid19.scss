@@ -1,0 +1,53 @@
+.grillapapa {
+    display: grid;
+    grid-template-areas: 
+    "menux menux"
+    "covid covid" 
+    "img img " 
+    "testeo txt"
+     "maps maps"
+     "footer footer" ;
+  }
+  .covidgrilla{
+    margin: 0.5em 0.5em 0.5em 0.5em;
+  }
+  .grillauno {
+    grid-area: covid;
+    width: 100%;
+  }
+  
+  .grillados {
+    grid-area: img;
+  }
+  
+  .grillatres {
+    grid-area: txt;
+  }
+  
+  .grillacuatro {
+    grid-area: maps;
+    height: 30em;
+  }
+  
+  .grillaseis {
+    grid-area: testeo;
+  }
+  .grillasiete{
+    grid-area: footer;
+    margin: 0%;
+  }
+  .grillaocho{
+    grid-area: menux;
+  }
+
+  @media screen and (max-width:768px) {
+.grillaseis{
+  display: none;
+}
+  }
+  @media screen and (max-width:425px) {
+
+    .textocovid{
+      font-weight: lighter;
+    }
+  }

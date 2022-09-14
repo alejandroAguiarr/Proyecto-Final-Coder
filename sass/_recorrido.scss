@@ -1,0 +1,143 @@
+
+.recorridomom {
+    display: grid;
+    grid-template-areas:
+      "menux"
+      "video"
+      "promo1"
+      "promo2"
+      "promo3"
+      "titulopromos"
+      "promo4"
+      "promo5"
+      "promo6"
+      "footer";
+  
+  }
+  
+  .grillar2 {
+    grid-area: video;
+  }
+  
+  .grillar3 {
+    grid-area: promo1;
+    margin: 1em 1em 0em 0em;
+    background-color: $background;
+  }
+  
+  .grillar4 {
+    grid-area: promo2;
+    margin: 1em 0em 1em 0em;
+    background-color:$background;
+  }
+  
+  .grillar5 {
+    grid-area: promo3;
+    margin: 1em 0em 1em 0em;
+    background-color: $background;
+  }
+  .grillar6{
+    grid-area: titulopromos;
+    margin: 1em 0em 1em 0em;
+  }
+  .grillar7 {
+    grid-area: promo4;
+    margin: 1em 0em 1em 0em;
+    background-color: $background;
+  }
+  
+  .grillar8 {
+    grid-area: promo5;
+    margin: 1em 0em 1em 0em;
+    background-color:$background;
+  }
+  
+  .grillar9 {
+    grid-area: promo6;
+    margin: 1em 0em 1em 0em;
+    background-color: $background;
+  }
+  .grillar10{
+    grid-area: footer;
+  }
+  .grillar11{
+    grid-area: menux;
+  }
+  .recofotos{
+    margin: 0,2em;
+    width: 97%;
+    height: 100%;
+  } 
+  
+  .gridsrecorridos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70vh;
+  }
+  
+  .parrafounorecorrido {
+    margin: 0, 5em;
+  }
+.txtr{
+  margin: 1em;
+}
+
+  .h1r {
+    margin: 0, 2em;
+    text-decoration: underline;
+  }
+  .h1reco{
+    margin: 0.50em;
+  }
+  
+  .h3rvideo {
+    margin: 1em;
+  }
+.cardtxtr{
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  width: 100%;
+  height: 17em;
+}
+.titulos{
+ margin: 0.25em;
+}
+.cardfotos{
+margin: 0.10em;
+height: 16em;
+}
+.pr{
+ margin: 0.50em;
+
+}
+.box_promo1{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.btn{
+  border-radius: 0.03em;
+  padding: 0.70em 0.70em;
+  text-decoration: none;
+  text-shadow: 0 0.03em 0 rgba(255,255,255,0.3);
+  box-shadow: 0 0.03em 0.03em rgba(0,0,0,0.3); 
+ 
+}
+.btn-container {
+  color: rgb(0, 0, 0);
+  background-color: #58b6db; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+
+}
+
+.btn-green:active {
+  background-color: #27c8dd;
+}
+
+.btn-container:hover {
+  background-color: white;
+}

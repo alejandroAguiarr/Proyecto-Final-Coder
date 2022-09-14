@@ -1,0 +1,53 @@
+.grillacontactos{
+display: grid;
+grid-template-areas: 
+"parte1"
+"parte2"
+"parte3"
+;
+}
+
+.grillac1{
+grid-area: parte1;
+}
+.grillac2{
+    grid-area: parte2;
+}
+.grillac3{
+grid-area: parte3;
+}
+
+
+
+
+
+
+.h3c{
+    margin: 1em 1em 1em;
+}
+.h4c{
+    text-align: left;
+    margin: 0px 0px 0px 1.10em;
+}
+.precioscard{
+width: 50em;
+}
+.precioscontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.formulario{
+    margin: 0.90em 0.90em 0.90em 0.90em;
+}
+
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 33%;
+}
+
+@media screen and (max-width:768px) {
+    .txtcon{
+        font-weight: lighter;
+    }
+    
+}
