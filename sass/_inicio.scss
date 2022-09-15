@@ -147,3 +147,37 @@ h1{
         transform: translate(0);
     }
 }
+
+@media screen and (max-width:1228px) {
+
+    .grillainicio3{
+        height: 60em;
+    }
+    .grillainicio4{
+        height: 60em;
+    }
+
+    .grillainicio5{
+       height: 56em;
+    }
+}
+
+@media screen and (max-width:827px){
+ 
+    .grillainicio3{
+        height: 87em;
+    }
+    .grillainicio4{
+        height: 86em;
+    }
+
+    .grillainicio5{
+       height: 84em;
+    }
+}
+
+@media screen and (max-width:320px){
+    .grillainicio4{
+        height: 87em;
+    }
+}

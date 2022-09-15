@@ -8,7 +8,6 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        max-width: 75em;
         margin: auto;
         margin-top: 6.25em;
     }
@@ -60,8 +59,23 @@ footer {
     background-color: #7a7a7a;
 }
 
-@media screen and (max-width:768px) {
-        .soluciones{
+@media screen and (max-width:930px) {
+        .soluciones-footer{
             display: none;
         }
+}
+
+@media screen and (max-width:696px) {
+    .container__footer{
+        justify-content: center;
+    }
+    h2{
+        font-size:40px;
+    }
+   .ar{
+        margin: auto;
+    }
+    .box__footer{
+        margin: auto;
+    }
 }
