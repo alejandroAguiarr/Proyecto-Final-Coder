@@ -521,7 +521,7 @@ h1 {
   grid-area: footer;
 }
 
-ggmenux {
+.ggmenux {
   grid-area: menux;
 }
 
@@ -537,6 +537,22 @@ ggmenux {
   font-family: "Raleway", sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  .foto2 {
+    display: none;
+  }
+  .foto4 {
+    display: none;
+  }
+  .foto6 {
+    display: none;
+  }
+  .gridsgaleria2 {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 45vh;
+  }
+}
 .grillacontactos {
   display: grid;
   grid-template-areas: "parte1" "parte2" "parte3";
